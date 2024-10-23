@@ -1,0 +1,46 @@
+header.app-header {
+  background-color: #3F51B5; /* Cor de fundo azul moderna */
+  color: white;
+  padding: 15px 40px;
+  width: 100vw; /* Ocupa 100% da largura da viewport */
+  display: flex;
+  align-items: center; /* Centraliza verticalmente o conteúdo */
+  justify-content: space-between; /* Espaça o conteúdo */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+  border-bottom: 2px solid #2C3E50; /* Borda inferior sutil */
+}
+
+header .container {
+  display: flex;
+  align-items: center; /* Centraliza o título e ícone verticalmente */
+}
+
+header h1 {
+  font-size: 28px;
+  margin-left: 20px; /* Espaço entre o ícone e o título */
+  font-weight: bold;
+  letter-spacing: 1px; /* Espaçamento entre letras */
+  white-space: nowrap; /* Impede quebra de linha do título */
+}
+
+header .app-icon {
+  width: 50px; /* Ajuste do tamanho do ícone */
+  height: 50px;
+  margin-right: 10px; /* Espaçamento entre ícone e título */
+}
+
+header nav {
+  display: flex;
+  gap: 20px; /* Espaçamento entre itens do menu (se houver) */
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+header a:hover {
+  color: #ffcc00; /* Cor ao passar o mouse */
+}
